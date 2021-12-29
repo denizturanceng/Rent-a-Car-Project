@@ -1,0 +1,12 @@
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\Data Entities.dll.config
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\Data Entities.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\Data Entities.pdb
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\EntityFramework.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\EntityFramework.xml
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\obj\Debug\Data Entities.csprojAssemblyReference.cache
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\obj\Debug\Data Entities.csproj.CoreCompileInputs.cache
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\obj\Debug\Data Entities.csproj.CopyComplete
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\obj\Debug\Data Entities.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Entities\obj\Debug\Data Entities.pdb

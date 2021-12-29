@@ -1,0 +1,18 @@
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Bussiness Layer.dll.config
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Bussiness Layer.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Bussiness Layer.pdb
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Access Layer.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\EntityFramework.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Entities.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\EntityFramework.xml
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Entities.pdb
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\bin\Debug\Data Entities.dll.config
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\obj\Debug\Bussiness Layer.csprojAssemblyReference.cache
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CoreCompileInputs.cache
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CopyComplete
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\obj\Debug\Bussiness Layer.dll
+C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Bussiness Layer\obj\Debug\Bussiness Layer.pdb

@@ -1,0 +1,52 @@
+body{
+  background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23292b2c' fill-opacity='0.19' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.menu{
+  margin-top:0px;
+}
+
+.jumbotron {
+  background-image: url(/jumbo.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.card{
+background-color: rgba(0, 0, 0, 0.5);
+color: rgb(255, 255, 255);
+}
+
+a.custom-card {
+  color: inherit;
+}
+
+img{
+  max-width: 540px;
+  max-height: inherit;
+}
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.tab-pane{
+  text-align: center;
+}
+
+.form-shape{
+  width: 75%;
+  margin:auto;
+}
+
+.red .active a,
+.red .active a:hover {
+    background-color: #292b2c;
+}
+
+.footer{
+  padding: 5%;
+}
+.bosluk{
+    visibility: hidden;
+}
