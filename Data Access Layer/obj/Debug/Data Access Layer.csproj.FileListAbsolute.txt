@@ -13,3 +13,18 @@ C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Access Layer\obj\Debu
 C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
 C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Access Layer\obj\Debug\Data Access Layer.dll
 C:\Users\deniz\Desktop\İleri Web Programlama Projesi\Data Access Layer\obj\Debug\Data Access Layer.pdb
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Entities.dll
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\EntityFramework.dll
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Entities.pdb
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\Data Entities.dll.config
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\EntityFramework.xml
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\obj\Debug\Data Access Layer.csprojAssemblyReference.cache
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\obj\Debug\Data Access Layer.csproj.CopyComplete
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Access Layer\obj\Debug\Data Access Layer.pdb

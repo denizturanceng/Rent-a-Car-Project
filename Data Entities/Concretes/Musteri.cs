@@ -33,13 +33,11 @@ namespace Data_Entities.Concretes
         public string musteriTelefon { get; set; }
 
         [Required]
-        public int musteriTC { get; set; }
-
-       // public int musteriKiraladigiSirketID { get; set; }
+        public int musteriTC { get; set; }     
         public int musteriKiraladigiAracID { get; set; }
         public int musteriKiralamaTutari { get; set; }
         public int musteriKiralamaSuresiGun { get; set; }
-        public int musteriVerdigiPuan { get; set; }
+       
 
     }
 }

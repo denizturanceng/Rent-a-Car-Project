@@ -12,6 +12,7 @@ namespace Bussiness_Layer
         public Test()
         {
             DataContext db = new DataContext();
+           
             db.Database.CreateIfNotExists();
         }
     }

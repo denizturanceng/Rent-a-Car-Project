@@ -106,15 +106,21 @@
     <Content Include="Content\Img\kampanya1.jpg" />
     <Content Include="Content\Img\kampanya2.jpg" />
     <Content Include="Content\Img\kampanya3.jpg" />
-    <Content Include="Content\Img\kampanyalar.jpg" />
+    <Content Include="Content\Img\kampanya4.jpg" />
     <Content Include="Content\Img\kiralama.jpg" />
     <Content Include="Content\Img\sorular.jpg" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Home\AracKiralama.cshtml" />
+    <None Include="Views\Home\LoginPage.cshtml" />
+    <None Include="Views\Home\Kampanyalar.cshtml" />
+    <None Include="Views\Home\Hakkimizda.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CalisanlarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MusterilerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,6 +141,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Calisanlar\" />
+    <Folder Include="Views\Musteriler\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bussiness Layer\Bussiness Layer.csproj">
