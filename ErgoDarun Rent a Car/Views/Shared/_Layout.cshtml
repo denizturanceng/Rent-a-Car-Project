@@ -16,15 +16,15 @@
             </button>
 
             <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" type="submit"><a href='login.html'>Login / Sign-up</a></button>
+                @Html.ActionLink("Login | Signup", "Login", "Home", new {@class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" })
             </form>
 
             <div class="collapse navbar-collapse" id="navMain">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link " href="main.html">Anasayfa</a>
-                    <a class="nav-item nav-link " href="~/Views/Home/HakkimizdaView.cshtml">Hakkımızda</a>
-                    <a class="nav-item nav-link " href="kiralama.html">Araç Kiralama</a>
-                    <a class="nav-item nav-link " href="kampanyalar.html">Kampanyalar</a>
+                    @Html.ActionLink("Anasayfa", "Index", "Home", new { @class = "nav-item nav-link" })
+                    @Html.ActionLink("Hakkımızda", "Hakkimizda", "Home", new { @class = "nav-item nav-link" })
+                    @Html.ActionLink("Araç Kiralama", "AracKiralama", "Home", new { @class = "nav-item nav-link" })
+                    @Html.ActionLink("Kampanyalar", "Kampanyalar", "Home", new { @class = "nav-item nav-link" })
                     <a class="nav-item nav-link " href="sorular.html">Sıkça Sorulan Sorular</a>
                 </div>
             </div>

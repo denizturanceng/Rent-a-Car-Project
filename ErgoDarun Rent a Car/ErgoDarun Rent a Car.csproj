@@ -106,7 +106,7 @@
     <Content Include="Content\Img\kampanya1.jpg" />
     <Content Include="Content\Img\kampanya2.jpg" />
     <Content Include="Content\Img\kampanya3.jpg" />
-    <Content Include="Content\Img\kampanyalar.jpg" />
+    <Content Include="Content\Img\kampanya4.jpg" />
     <Content Include="Content\Img\kiralama.jpg" />
     <Content Include="Content\Img\sorular.jpg" />
     <Content Include="Global.asax" />
@@ -125,6 +125,10 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\LoginPage.cshtml" />
+    <Content Include="Views\Home\Hakkimizda.cshtml" />
+    <Content Include="Views\Home\AracKiralama.cshtml" />
+    <Content Include="Views\Home\Kampanyalar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

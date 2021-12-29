@@ -14,7 +14,27 @@ namespace ErgoDarun_Rent_a_Car.Controllers
         {
             //Test test = new Test();
              
-            return View("");
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            return View("LoginPage");
+        }
+
+        public ActionResult Hakkimizda()
+        {
+            return View("Hakkimizda");
+        }
+
+        public ActionResult AracKiralama()
+        {
+            return View("AracKiralama");
+        }
+
+        public ActionResult Kampanyalar()
+        {
+            return View("Kampanyalar");
         }
     }
 }
