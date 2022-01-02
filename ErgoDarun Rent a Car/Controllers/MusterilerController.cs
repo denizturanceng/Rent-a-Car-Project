@@ -16,5 +16,9 @@ namespace ErgoDarun_Rent_a_Car.Controllers
         {
             return View();
         }
+        public ActionResult Cikis()
+        {
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

@@ -1,0 +1,64 @@
+﻿@model Data_Entities.Concretes.Musteri
+@{
+    ViewBag.Title = "SignIn";
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ErgoDarun Automobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Content/Css/loginstyle.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Giriş Yap</h3>
+                </div>
+               
+                <div class="card-body">
+                    <form action="~/Home/SignIn" method="post">
+                        @Html.LabelFor(x => x.musteriAd)
+                        @Html.TextBoxFor(x => x.musteriAd, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriSoyad)
+                        @Html.TextBoxFor(x => x.musteriSoyad, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriKullaniciAd)
+                        @Html.TextBoxFor(x => x.musteriKullaniciAd, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriSifre)
+                        @Html.TextBoxFor(x => x.musteriSifre, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriTelefon)
+                        @Html.TextBoxFor(x => x.musteriTelefon, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriAdres)
+                        @Html.TextBoxFor(x => x.musteriAdres, new { @class = "form-control" })
+                        <br />
+                        @Html.LabelFor(x => x.musteriTC)
+                        @Html.TextBoxFor(x => x.musteriTC, new { @class = "form-control" })
+                        <br />
+                        <button class="btn btn-primary">Kaydet</button>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>

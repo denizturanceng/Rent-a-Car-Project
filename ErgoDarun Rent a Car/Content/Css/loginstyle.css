@@ -45,10 +45,21 @@ margin-right: 5px;
 .login_btn{
 color: black;
 background-color: lightblue;
-width: 100px;
+width: 200px;
 }
 
 .login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.kurumsal_btn{
+ color:black;
+ background-color:lightblue;
+ width:300px
+}
+
+.kurumsal_btn:hover {
 color: black;
 background-color: white;
 }

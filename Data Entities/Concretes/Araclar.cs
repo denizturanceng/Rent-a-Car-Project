@@ -20,32 +20,34 @@ namespace Data_Entities.Concretes
         [Required, StringLength(15)]
         public string aracModel { get; set; }
 
-        [Required]
-        public int aracYil { get; set; }
+        [Required, StringLength(30)]
+        public string aracYil { get; set; }
 
         [Required, StringLength(15)]
         public string aracRenk { get; set; }
 
-        [Required]
-        public int aracKoltukSayisi { get; set; }
+        [Required, StringLength(30)]
+        public string aracKoltukSayisi { get; set; }
 
-        [Required]
-        public int aracAirBag { get; set; }
+        [Required, StringLength(30)]
+        public string aracAirBag { get; set; }
 
-        [Required]
-        public int aracBaslangicKM { get; set; }
+        [Required, StringLength(30)]
+        public string aracBaslangicKM { get; set; }
+        [Required, StringLength(30)]
+        public string aracSonKM { get; set; }
 
-        public int aracSonKM { get; set; }
+        [Required, StringLength(30)]
+        public string aracGunlukFiyat { get; set; }
 
-        [Required]
-        public float aracGunlukFiyat { get; set; }
-
-        [Required]
-        public int aracKiralanabilirlikDurumu { get; set; }
+        [Required, StringLength(30)]
+        public string aracKiralanabilirlikDurumu { get; set; }
 
         public int aracKiralayanMusteriID { get; set; }
-        public int aracKiralananGun { get; set; }
-        public float aracToplamTutar{ get; set; }
+        [Required, StringLength(30)]
+        public string aracKiralananGun { get; set; }
+        [Required, StringLength(30)]
+        public string aracToplamTutar{ get; set; }
 
 
     }

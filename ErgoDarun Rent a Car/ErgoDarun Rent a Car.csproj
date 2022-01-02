@@ -131,6 +131,9 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\SignInPage.cshtml" />
+    <Content Include="Views\Shared\Musteri_Layout .cshtml" />
+    <Content Include="Views\Musteriler\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -142,7 +145,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Calisanlar\" />
-    <Folder Include="Views\Musteriler\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bussiness Layer\Bussiness Layer.csproj">
