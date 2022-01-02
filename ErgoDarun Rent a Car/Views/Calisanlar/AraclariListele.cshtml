@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Data_Entities.Concretes.Araclar>
+@{
+    ViewBag.Title = "AraclariListele";
+    Layout = "~/Views/Shared/Calisan_Layout .cshtml";
+
+
+    ViewData["Title"] = "Araçları Listele";
+    string[] TableHeaders = new string[] {
+                         "Araç ID"
+                        ,"Marka"
+                        ,"Model"
+                        ,"Yıl"
+                        ,"Renk"
+                        ,"Airbag"
+                        ,"Başlangıç KM"
+                        ,"Günlük Fiyat"
+                        ,"Kiralayan Müşteri ID"
+                        ,"Kiralama Süresi (Gün)"
+                        ,"Toplam Tutar"
+                        ,"Kiralanabilirlik Durumu" };
+                        
+}
+<h1 style="text-align:center">Araç Listesi</h1>
+    <p></p>
+
+    <div class="table">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    @{
+                        foreach (var head in TableHeaders)
+                        {
+                            <th>
+                                @head
+                            </th>
+                        }
+                    }
+                </tr>
+            </thead>
+
+            <tbody>
+                @{
+                    if (Model != null)
+                    {
+                        foreach (var Data in Model)
+                        {
+                            <tr>
+                                <td>@Data.aracID</td>
+                                <td>@Data.aracMarka</td>
+                                <td>@Data.aracModel</td>
+                                <td>@Data.aracYil</td>
+                                <td>@Data.aracRenk</td>
+                                <td>@Data.aracAirBag</td>
+                                <td>@Data.aracBaslangicKM</td>
+                                <td>@Data.aracGunlukFiyat</td>
+                                <td>@Data.aracKiralananGun</td>
+                                <td>@Data.aracKiralayanMusteriID</td>
+                                <td>@Data.aracToplamTutar</td>
+                                <td>@Data.aracKiralanabilirlikDurumu</td>
+                            </tr>
+                        }
+                    }
+                }
+            </tbody>
+        </table>
+    </div>

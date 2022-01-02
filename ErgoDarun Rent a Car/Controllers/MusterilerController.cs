@@ -12,13 +12,15 @@ namespace ErgoDarun_Rent_a_Car.Controllers
     public class MusterilerController : Controller
     {
         // GET: Musteriler
-        public ActionResult Index()
-        {
-            return View();
-        }
+        
         public ActionResult Cikis()
         {
             return RedirectToAction("Index", "Home");
+        }
+
+        public ActionResult AracKiralama()
+        {
+            return View("AracKiralama");
         }
     }
 }

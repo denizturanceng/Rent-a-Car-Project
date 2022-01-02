@@ -14,10 +14,10 @@ namespace Data_Entities.Concretes
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int musteriID { get; set; }
 
-        [Required, StringLength(15)]
+        [Required, StringLength(30)]
         public string musteriKullaniciAd { get; set; }
 
-        [Required, StringLength(15)]
+        [Required, StringLength(30)]
         public string musteriSifre { get; set; }
 
         [Required, StringLength(30)]
@@ -29,10 +29,10 @@ namespace Data_Entities.Concretes
         [Required, StringLength(30)]
         public string musteriSoyad { get; set; }
 
-        [Required, StringLength(10)]
+        [Required, StringLength(30)]
         public string musteriTelefon { get; set; }
 
-        [Required]
+        [Required, StringLength(30)]
         public string musteriTC { get; set; }     
 
         public int musteriKiraladigiAracID { get; set; }

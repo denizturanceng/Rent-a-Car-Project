@@ -1,0 +1,15 @@
+﻿@model Data_Entities.Concretes.Araclar
+@{
+    ViewBag.Title = "AracSilme";
+    Layout = "~/Views/Shared/Calisan_Layout .cshtml";
+}
+
+<h2>Araç Silme</h2>
+
+<form action="~/Calisanlar/AracSilme" method="post">
+    @Html.LabelFor(x => x.aracID)
+    @Html.TextBoxFor(x => x.aracID, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary">Sil</button>
+</form>
+

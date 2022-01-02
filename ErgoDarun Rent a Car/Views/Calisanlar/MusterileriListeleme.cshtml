@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Data_Entities.Concretes.Musteri>
+@{
+    ViewBag.Title = "MusterileriListeleme";
+    Layout = "~/Views/Shared/Calisan_Layout .cshtml";
+
+    ViewData["Title"] = "Müşterileri Listele";
+    string[] TableHeaders = new string[] {
+                         "Müşteri ID"
+                        ,"İsim"
+                        ,"Soy İsim"
+                        ,"Kullanıcı Adı"
+                        ,"Şifre"
+                        ,"Adres"
+                        ,"Telefon"
+                        ,"TC Kimlik Numarası"
+                        ,"Kiraladığı Araç ID"
+                        ,"Kiralama Süresi (Gün)"
+                        ,"Toplam Tutar"
+                        };
+}
+
+<h2>Musterileri Listeleme</h2>
+<p></p>
+
+<div class="table">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                @{
+                    foreach (var head in TableHeaders)
+                    {
+                        <th>
+                            @head
+                        </th>
+                    }
+                }
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                if (Model != null)
+                {
+                    foreach (var Data in Model)
+                    {
+                        <tr>
+                            <td>@Data.musteriID</td>
+                            <td>@Data.musteriAd</td>
+                            <td>@Data.musteriSoyad</td>
+                            <td>@Data.musteriKullaniciAd</td>
+                            <td>@Data.musteriSifre</td>
+                            <td>@Data.musteriAdres</td>
+                            <td>@Data.musteriTelefon</td>
+                            <td>@Data.musteriTC</td>
+                            <td>@Data.musteriKiraladigiAracID</td>
+                            <td>@Data.musteriKiralamaSuresiGun</td>
+                            <td>@Data.musteriKiralamaTutari</td>
+                        </tr>
+                    }
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

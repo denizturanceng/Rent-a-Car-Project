@@ -1,11 +1,9 @@
-﻿@{
-    ViewBag.Title = "Login";
+﻿
+@{
     Layout = null;
-
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>ErgoDarun Automobile</title>
@@ -22,29 +20,19 @@
                     <h3>Giriş Yap</h3>
                 </div>
                 <div class="card-body">
-                    @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                    @using (Html.BeginForm("CalisanLogin", "Home", FormMethod.Post))
                     {
                         <div class="input-group form-group">
-                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="musteriKullaniciAd">
+                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="calisanKullaniciAd">
                         </div>
                         <div class="input-group form-group">
-                            <input type="password" class="form-control" placeholder="Parola" name="musteriSifre">
+                            <input type="password" class="form-control" placeholder="Parola" name="calisanSifre">
                         </div>
 
                         <div class="form-group">
                             <input type="submit" value="Login" class="btn float-right login_btn">
                         </div>
-
-                        <div class="form-group">
-                            @Html.ActionLink("Kurumsal Giriş", "CalisanLogin", "Home", new { @class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark btn_kurumsal" })
-                        </div>
                     }
-                </div>
-                <div class="card-footer">
-                    <div class="d-flex justify-content-center links">
-                        Hesabınız yok mu ? @Html.ActionLink("Hesap Oluştur", "SignIn", "Home", new { @class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" })
-                    </div>
-                   
                 </div>
             </div>
         </div>

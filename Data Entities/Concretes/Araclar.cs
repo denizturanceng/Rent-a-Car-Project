@@ -34,19 +34,12 @@ namespace Data_Entities.Concretes
 
         [Required, StringLength(30)]
         public string aracBaslangicKM { get; set; }
-        [Required, StringLength(30)]
-        public string aracSonKM { get; set; }
 
         [Required, StringLength(30)]
         public string aracGunlukFiyat { get; set; }
-
-        [Required, StringLength(30)]
         public string aracKiralanabilirlikDurumu { get; set; }
-
-        public int aracKiralayanMusteriID { get; set; }
-        [Required, StringLength(30)]
-        public string aracKiralananGun { get; set; }
-        [Required, StringLength(30)]
+        public int aracKiralayanMusteriID { get; set; }        
+        public string aracKiralananGun { get; set; }      
         public string aracToplamTutar{ get; set; }
 
 

@@ -8,11 +8,12 @@ namespace ErgoDarun_Rent_a_Car.Controllers
     public class HomeController : Controller
     {
         Repository<Musteri> musteriRepo = new Repository<Musteri>();
+        Repository<Calisan> calisanRepo = new Repository<Calisan>();
 
         // GET: Home
         public ActionResult Index()
         {
-            //var musteriList = musteriRepo.List();
+            
             //Test test = new Test();
 
             return View();
@@ -29,7 +30,7 @@ namespace ErgoDarun_Rent_a_Car.Controllers
             var bilgiler = musteri.musteriKullaniciAd == kontrol.musteriKullaniciAd && musteri.musteriSifre == kontrol.musteriSifre;
             if (bilgiler != null)
             {
-                return RedirectToAction("Index","Musteriler");
+                return RedirectToAction("AracKiralama", "Musteriler");
             }
             else
             {
@@ -68,14 +69,27 @@ namespace ErgoDarun_Rent_a_Car.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
         public ActionResult CalisanLogin()
         {
-            return View();
+            return View("CalisanLogin");
         }
-        /*public ActionResult CalisanLogin()
-        {
-            return View();
 
-        }*/
+        [HttpPost]
+        public ActionResult CalisanLogin(Calisan kontrol)
+        {
+            Calisan calisan = new Calisan();
+            var bilgiler = calisan.calisanKullaniciAd == kontrol.calisanKullaniciAd && calisan.calisanSifre == kontrol.calisanSifre;
+            if (bilgiler != null)
+            {
+                return RedirectToAction("AraclariListele", "Calisanlar");
+            }
+            else
+            {
+                return View("CalisanLogin");
+            }
+
+
+        }
     }
 }
