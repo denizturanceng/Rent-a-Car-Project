@@ -54,6 +54,11 @@ namespace ErgoDarun_Rent_a_Car.Controllers
             return View("Kampanyalar");
         }
 
+        public ActionResult Sorular()
+        {
+            return View("Sorular");
+        }
+
         [HttpGet]
         public ActionResult SignIn()
         {

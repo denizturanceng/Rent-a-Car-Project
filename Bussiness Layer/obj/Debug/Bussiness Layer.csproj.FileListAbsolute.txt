@@ -34,3 +34,21 @@ C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Bussiness Layer\obj\Debug\Bussine
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CopyComplete
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Bussiness Layer\obj\Debug\Bussiness Layer.dll
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Bussiness Layer\obj\Debug\Bussiness Layer.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Bussiness Layer.dll.config
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Bussiness Layer.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Bussiness Layer.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Access Layer.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\EntityFramework.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Entities.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\EntityFramework.xml
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Entities.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\bin\Debug\Data Entities.dll.config
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\obj\Debug\Bussiness Layer.csprojAssemblyReference.cache
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CoreCompileInputs.cache
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CopyComplete
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\obj\Debug\Bussiness Layer.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Bussiness Layer\obj\Debug\Bussiness Layer.pdb

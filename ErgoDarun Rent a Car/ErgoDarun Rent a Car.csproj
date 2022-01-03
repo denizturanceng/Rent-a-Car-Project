@@ -109,6 +109,7 @@
     <Content Include="Content\Img\kampanya4.jpg" />
     <Content Include="Content\Img\kiralama.jpg" />
     <Content Include="Content\Img\sorular.jpg" />
+    <Content Include="Content\Scripts\signupValidation.js" />
     <Content Include="Global.asax" />
     <Content Include="Views\Home\AracKiralama.cshtml" />
     <Content Include="Views\Home\CalisanLogin.cshtml" />
@@ -143,6 +144,8 @@
     <Content Include="Views\Shared\Musteri_Layout .cshtml" />
     <Content Include="Views\Shared\Calisan_Layout .cshtml" />
     <Content Include="Views\Musteriler\AracKiralama.cshtml" />
+    <Content Include="Views\Shared\Login_Signup_Layout.cshtml" />
+    <Content Include="Views\Home\Sorular.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

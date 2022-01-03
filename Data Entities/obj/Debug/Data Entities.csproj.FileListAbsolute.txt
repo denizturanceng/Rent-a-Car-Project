@@ -22,3 +22,15 @@ C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Entities\obj\Debug\Data Enti
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Entities\obj\Debug\Data Entities.csproj.CopyComplete
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Entities\obj\Debug\Data Entities.dll
 C:\Users\deniz\Source\Repos\Rent-a-Car-Project\Data Entities\obj\Debug\Data Entities.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\Data Entities.dll.config
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\Data Entities.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\Data Entities.pdb
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\EntityFramework.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\EntityFramework.xml
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\obj\Debug\Data Entities.csprojAssemblyReference.cache
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\obj\Debug\Data Entities.csproj.CoreCompileInputs.cache
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\obj\Debug\Data Entities.csproj.CopyComplete
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\obj\Debug\Data Entities.dll
+C:\Users\disci\Source\Repos\Rent-a-Car-Project-Final\Data Entities\obj\Debug\Data Entities.pdb
