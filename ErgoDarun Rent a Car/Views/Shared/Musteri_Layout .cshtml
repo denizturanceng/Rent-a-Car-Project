@@ -11,13 +11,21 @@
 <body>
     <nav class="navbar navbar-toggleable-md navbar-dark bg-dark ">
         <div class="container">
-            
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <form class="form-inline my-2 my-lg-0">
-                @Html.ActionLink("Çıkış", "Cikis", "Musteri", new { @class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" })
+                @Html.ActionLink("Çıkış", "Cikis", "Musteriler", new { @class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" })
             </form>
 
-            
+            <div class="collapse navbar-collapse" id="navMain">
+                <div class="navbar-nav">
+                    @Html.ActionLink("Araçları Listele", "AraclariListele", "Musteriler", new { @class = "nav-item nav-link" })
+                    @Html.ActionLink("Araç Kirala", "AracKiralama", "Musteriler", new { @class = "nav-item nav-link" })
+                   
+                </div>
+            </div>
         </div>
     </nav>
     <div class="jumbotron jumbotron-fluid text-white text-center" style=" background-image: url('../../Content/Img/jumbo.jpg'); no-repeat: center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">

@@ -146,6 +146,7 @@
     <Content Include="Views\Musteriler\AracKiralama.cshtml" />
     <Content Include="Views\Shared\Login_Signup_Layout.cshtml" />
     <Content Include="Views\Home\Sorular.cshtml" />
+    <Content Include="Views\Musteriler\AraclariListele.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

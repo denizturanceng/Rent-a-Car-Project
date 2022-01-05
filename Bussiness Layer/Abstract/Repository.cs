@@ -11,7 +11,10 @@ namespace Bussiness_Layer.Abstract
     public class Repository<T> : IRepository<T> where T : class
     {
         private DbSet<T> _objectSet;
-        private readonly DataContext _dbContext = new DataContext();
+        public readonly DataContext _dbContext = new DataContext();
+
+       
+        
 
         public Repository()
         {
@@ -29,6 +32,11 @@ namespace Bussiness_Layer.Abstract
             return _objectSet.Find(id);
         }
 
+        public T GetByValue(string value)
+        {
+            return _objectSet.Find(value);
+        }
+
         public int Insert(T obj)
         {
             _objectSet.Add(obj);
@@ -39,6 +47,12 @@ namespace Bussiness_Layer.Abstract
         {
             return _objectSet.ToList();
         }
+
+        public List<T> ToListAsync()
+        {
+            return _objectSet.ToList();
+        }
+
 
         public int Save()
         {

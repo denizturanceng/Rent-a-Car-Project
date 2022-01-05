@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Data_Entities.Concretes.Musteri
+@{
     ViewBag.Title = "Login";
     Layout = null;
 
@@ -25,10 +26,12 @@
                     @using (Html.BeginForm("Login", "Home", FormMethod.Post))
                     {
                         <div class="input-group form-group">
-                            <input type="text" class="form-control" placeholder="Kullanıcı Adı" name="musteriKullaniciAd">
+                            
+                            @Html.TextBoxFor(x => x.musteriKullaniciAd , new { @class = "form-control", type = "text", required = "required", placeholder = "Kullanıcı Adı:" })
                         </div>
                         <div class="input-group form-group">
-                            <input type="password" class="form-control" placeholder="Parola" name="musteriSifre">
+                           
+                            @Html.TextBoxFor(x => x.musteriSifre, new { @class = "form-control", type = "password", required = "required", placeholder = "Şifre:" })
                         </div>
 
                         <div class="form-group">
@@ -44,12 +47,13 @@
                     <div class="d-flex justify-content-center links">
                         Hesabınız yok mu ? @Html.ActionLink("Hesap Oluştur", "SignIn", "Home", new { @class = "btn btn-secondary ml-2 my-sm-0 pull-right bg-dark" })
                     </div>
-                   
+
                 </div>
             </div>
         </div>
     </div>
 
+    <script src="~/Content/Scripts/signupValidation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

@@ -11,34 +11,45 @@
 <div class="card-body">
     @using (Html.BeginForm("AracEkleme", "Calisanlar", FormMethod.Post))
     {
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Marka" name="aracMarka">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Model" name="aracModel">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Araç Yıl" name="aracYil">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Renk" name="aracRenk">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Koltuk Sayısı" name="aracKoltukSayisi">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Airbag" name="aracAirbag">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Başlangıç KM" name="aracBaslangicKM">
-        </div>
-        <div class="input-group form-group">
-            <input type="text" class="form-control" placeholder="Günlük Fiyatı" name="aracGunlukFiyat">        
-        </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracMarka, new { @class = "form-control", type = "text", required = "required", placeholder = "Marka:" })
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracModel, new { @class = "form-control", type = "text", required = "required", placeholder = "Model:" })
+   
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracYil, new { @class = "form-control", type = "text", required = "required", placeholder = "Yıl:" })
+
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracRenk, new { @class = "form-control", type = "text", required = "required", placeholder = "Renk:" })
+        
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracKoltukSayisi, new { @class = "form-control", type = "text", required = "required", placeholder = "Koltuk Sayısı:" })
+
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracAirBag, new { @class = "form-control", type = "text", required = "required", placeholder = "Airbag:" })
+        
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracBaslangicKM, new { @class = "form-control", type = "text", required = "required", placeholder = "Başlangıç KM:" })
+
+    </div>
+    <div class="input-group form-group">
+        @Html.TextBoxFor(x => x.aracGunlukFiyat, new { @class = "form-control", type = "text", required = "required", placeholder = "Günlük Fiyatı:" })
+       
+    </div>
 
 
         <div class="form-group">
-            <input type="submit" value="Kaydet" class="btn float-right kaydet_btn">
+            <input type="submit" value="Kaydet" class="btn btn-warning float-right kaydet_btn">
         </div>
+        <br /> <br /> 
     }
 </div>
+
+
+<script src="~/Content/Scripts/signupValidation.js"></script>

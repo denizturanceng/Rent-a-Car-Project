@@ -7,7 +7,7 @@ form.addEventListener('submit', function (event) {
         alert("Lütfen tüm boşukları doğru doldurduğunuzdan emin olunuz.");
     }
     else {
-        alert("Kullanıcı kaydı tamamlanmıştır.")
+        alert("Kayıt tamamlanmıştır.")
     }
     form.classList.add('was-validated');
 })

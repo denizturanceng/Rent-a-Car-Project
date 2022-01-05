@@ -10,6 +10,8 @@ namespace Bussiness_Layer.Abstract
     {
         List<T> List();
 
+        List<T> ToListAsync();
+
         int Save();
 
         int Insert(T obj);
@@ -19,6 +21,8 @@ namespace Bussiness_Layer.Abstract
         int Delete(T obj);
 
         T GetByID(int id);
+
+        T GetByValue(string value);
 
     }
 }
